@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  /* font-family: "Ubuntu", sans-serif; */
+}
+/* gloabal spacing */
+.padding-x {
+  @apply sm:px-16 px-6;
+}
+/* global tile */
+.hero__title {
+  @apply  text-[40px] md:text-[82px] font-bold text-center md:leading-[100px];
+}
+
+.hero__para {
+  @apply  text-[18px] font-normal text-center sm:w-[450px];
+}
+/* slick-custom.css */
+
+/* Style dots individually */
+.slick-dots li:nth-child(1) button:before {
+  color: #FF0000 !important; /* Change color for first dot */
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.slick-dots li:nth-child(2) button:before {
+  color: #00FF00 !important; /* Change color for second dot */
+}
+
+/* Add more styles for other dots as needed */
+
+
+
