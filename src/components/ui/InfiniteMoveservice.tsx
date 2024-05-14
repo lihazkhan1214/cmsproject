@@ -84,7 +84,7 @@ export const InfiniteMoveservice = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item, idx) => (
+        {items.map((item) => (
           <li
             className=" border-[1px] p-4 hover:border-[#FB651E] text-[#000000]  flex justify-center cursor-pointer items-center border-[1px] relative rounded-md "
             

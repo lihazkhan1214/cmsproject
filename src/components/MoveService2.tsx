@@ -1,6 +1,5 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
 
 import { InfiniteMoveservice } from "./ui/InfiniteMoveservice";
 

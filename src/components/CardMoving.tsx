@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+
 import { InfiniteMovingCards } from "../components/ui/infinite-moving-cards";
 import cardimg1 from "../assets/moveimg1.png";
 import cardimg2 from "../assets/moveimg2.png";

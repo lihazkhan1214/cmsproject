@@ -1,6 +1,5 @@
-import  { useRef } from "react";
 import Slider from "react-slick";
-import { StepBack, StepForward } from 'lucide-react';
+// import { StepBack, StepForward } from 'lucide-react';
 import OfferCard from "./OfferCard";
 import offer1 from "../assets/offer1.png";
 import offer2 from "../assets/offer2.png";
@@ -55,22 +54,11 @@ const itemscards: TypeProps[] = [
 ];
 
 function OfferService() {
-    let sliderRef = useRef<Slider>(null);
 
-    const next = () => {
-        if (sliderRef.current) {
-            sliderRef.current.slickNext();
-        }
-    };
-
-    const previous = () => {
-        if (sliderRef.current) {
-            sliderRef.current.slickPrev();
-        }
-    };
+    
 
     const settings= {
-        dots: false,
+        dots:true,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
@@ -133,7 +121,7 @@ function OfferService() {
                 <p className="text-[#000000] mb-10 text-center mx-auto sm:w-[500px] text-lg font-normal">Our multi-level kindergarten programs cater to the age group of 2-5 years
                     with a curriculum focusing on children.</p>
 
-                <Slider ref={sliderRef} {...settings}>
+                <Slider  {...settings}>
                     {itemscards.map((item, ind) => (
                         <OfferCard
                             key={ind}
@@ -149,14 +137,7 @@ function OfferService() {
                 </Slider>
             </div>
 
-            <div style={{ textAlign: "center" }}>
-                <button className="mx-2 hover:text-[#FB651E]" onClick={previous}>
-                    <StepBack />
-                </button>
-                <button className="mx-2 hover:text-[#FB651E]" onClick={next}>
-                    <StepForward />
-                </button>
-            </div>
+            
         </>
     );
 }

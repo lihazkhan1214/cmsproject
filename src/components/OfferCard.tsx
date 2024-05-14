@@ -13,7 +13,7 @@ interface OfferCardProps {
 
 const OfferCard: React.FC<OfferCardProps> = ({ title, img,bg,shadowcolor,bordercolor, desc ,hovercolor}) => {
   return (
-<div className={`p-10 mx-auto sm:mx-2   rounded-xl hover:shadow-md    ${bg} ${shadowcolor} lg:w-[600px] lg:h-[466px] flex justify-center items-center gap-5 flex-col`}>
+<div className={`p-10 mx-auto sm:mx-2   rounded-xl hover:shadow-md    ${bg} ${shadowcolor}    flex justify-center items-center gap-5 flex-col`}>
         <div className={`border-dashed border-2 ${bordercolor} rounded-full p-4 `}>
         <img src={img} alt="" className="w-[120px]  h-[120px]" />
 
