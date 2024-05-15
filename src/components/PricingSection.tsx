@@ -213,7 +213,7 @@ function PricingSection() {
 
 
 
-        <button className={`p-4  rounded-md ${item.btnbg} ${item.btncolor} text-lg font-semibold`}>GetStarted</button>
+        <button className={`p-4 transform hover:-translate-y-1 transition duration-400  rounded-md ${item.btnbg} ${item.btncolor} text-lg font-semibold`}>GetStarted</button>
 
 
       </div>

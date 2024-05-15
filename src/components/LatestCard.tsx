@@ -43,7 +43,7 @@ function LatestCard({
 
         <div className="mb-5">
           <Link to={`/articles/${slug}`}>
-            <button className="mt-5 bg-[#FF9B24] rounded-sm w-[120px] text-[#FFFFFF] font-normal text-[14px] py-2">
+            <button className="mt-5 transform hover:-translate-y-1 transition duration-400 bg-[#FF9B24] rounded-sm w-[120px] text-[#FFFFFF] font-normal text-[14px] py-2">
               View
             </button>
           </Link>

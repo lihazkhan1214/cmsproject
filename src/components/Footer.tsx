@@ -101,7 +101,7 @@ first program in Kindedo.</p>
   <input  type="email" placeholder='Email' className="w-[300px]  rounded-[50px] outline-none font-normal text-[18px] text-[#000000] h-[100%]  pl-2" />
 
 
-  <button className='hover:bg-[#00BAAE] text-[14px] flex justify-center items-center font-semibold  border-[#000000]  bg-[#FF9B24]  hover:text-[#FFF]  rounded-full w-[168px] text-[#FFF] h-[50px]'>
+  <button className='hover:bg-[#00BAAE] text-[14px] transform hover:-translate-y-1 transition duration-400 flex justify-center items-center font-semibold  border-[#000000]  bg-[#FF9B24]  hover:text-[#FFF]  rounded-full w-[168px] text-[#FFF] h-[50px]'>
           Subscribe Now
         </button>
 
@@ -128,7 +128,7 @@ first program in Kindedo.</p>
   {
     quicklins.map((item,ind)=>(<>
 
-<Link key={ind}  className='text-lg text-[#FFFFFF] font-normal hover:text-[#FF9B24]' to={item.link}>{item.title}</Link>
+<Link key={ind}  className='text-lg text-[#FFFFFF] transform hover:-translate-y-1 transition duration-400 font-normal hover:text-[#FF9B24]' to={item.link}>{item.title}</Link>
 
     
     </>))
@@ -156,7 +156,7 @@ first program in Kindedo.</p>
   {
     programs.map((item,ind)=>(<>
 
-<Link key={ind}  className='text-lg text-[#FFFFFF] font-normal hover:text-[#FF9B24]' to={item.link}>{item.title}</Link>
+<Link key={ind}  className='text-lg text-[#FFFFFF] transform hover:-translate-y-1 transition duration-400 font-normal hover:text-[#FF9B24]' to={item.link}>{item.title}</Link>
 
     
     </>))
@@ -181,10 +181,10 @@ first program in Kindedo.</p>
 
 
 
-<Link  className='text-lg text-[#FFFFFF] flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><Facebook className='text-[#FFF] hover:text-[#FF9B24]'/>Facebook</Link>
+<Link  className='text-lg text-[#FFFFFF] transform hover:-translate-y-1 transition duration-400 flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><Facebook className='text-[#FFF] hover:text-[#FF9B24]'/>Facebook</Link>
 
-<Link  className='text-lg text-[#FFFFFF] flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><Twitter className='text-[#FFF] hover:text-[#FF9B24]'/>Twitter</Link>
-<Link  className='text-lg text-[#FFFFFF] flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><Instagram className='text-[#FFF] hover:text-[#FF9B24]'/>Instagram</Link>
+<Link  className='text-lg text-[#FFFFFF] transform hover:-translate-y-1 transition duration-400 flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><Twitter className='text-[#FFF] hover:text-[#FF9B24]'/>Twitter</Link>
+<Link  className='text-lg text-[#FFFFFF] transform hover:-translate-y-1 transition duration-400 flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><Instagram className='text-[#FFF] hover:text-[#FF9B24]'/>Instagram</Link>
 
     
    
@@ -209,13 +209,13 @@ first program in Kindedo.</p>
 
   
 
-<Link  className='text-lg text-[#FFFFFF] flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><MapPin className='text-[#FFF] hover:text-[#FF9B24]'/>
+<Link  className='text-lg transform hover:-translate-y-1 transition duration-400 text-[#FFFFFF] flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><MapPin className='text-[#FFF] hover:text-[#FF9B24]'/>
 14/A, Kilix Home Tower, NYC</Link>
-<Link  className='text-lg text-[#FFFFFF] flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><Phone className='text-[#FFF] hover:text-[#FF9B24]'/>
+<Link  className='text-lg transform hover:-translate-y-1 transition duration-400 text-[#FFFFFF] flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><Phone className='text-[#FFF] hover:text-[#FF9B24]'/>
 907-200-3462
 </Link>
     
-<Link  className='text-lg text-[#FFFFFF] flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><Mail className='text-[#FFF] hover:text-[#FF9B24]'/>
+<Link  className='text-lg transform hover:-translate-y-1 transition duration-400 text-[#FFFFFF] flex items-center gap-2 font-normal hover:text-[#FF9B24]' to="/"><Mail className='text-[#FFF] hover:text-[#FF9B24]'/>
 lehaz123@gmail.com</Link>
     
     

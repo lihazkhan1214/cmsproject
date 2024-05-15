@@ -25,7 +25,7 @@ const OfferCard: React.FC<OfferCardProps> = ({ title, img,bg,shadowcolor,borderc
         <p className="text-lg text-[#000000] text-center font-normal">{desc}</p>
 
 
-        <button className={`rounded-[50px] ${hovercolor} ${bordercolor} hover:text-[#FFFFFF] w-[160px] text-lg text-[#000000] font-semibold h-[50px] flex items-center justify-center p-4 border-[1px] `}>View Details</button>
+        <button className={`rounded-[50px] transform hover:-translate-y-1 transition duration-400 ${hovercolor} ${bordercolor} hover:text-[#FFFFFF] w-[160px] text-lg text-[#000000] font-semibold h-[50px] flex items-center justify-center p-4 border-[1px] `}>View Details</button>
 
 
       
