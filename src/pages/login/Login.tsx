@@ -76,7 +76,7 @@ function Login() {
                                 </div>
                             ))}
                             {error && <h6 className='text-center mt-2 text-[red]'>wrong credentials</h6>}
-                            <button type='submit' className='py-4 rounded-lg px-6 text-2xl font-meduim bg-[#FF9B24] text-[#FFF]'>Send</button>
+                            <button type='submit' className='py-4 rounded-lg hover:-translate-y-1 transition duration-400 px-6 text-2xl font-meduim bg-[#FF9B24] text-[#FFF]'>Send</button>
                             <span className='text-lg text-center font-normal text-[#333] cursor-pointer' onClick={changeForget}>Back to Sign In</span>
                         </form>
                     </div>
@@ -99,7 +99,7 @@ function Login() {
                                     />
                                 </div>
                             ))}
-                            <button type='submit' className='py-4 rounded-lg px-6 text-2xl font-meduim bg-[#FF9B24] text-[#FFF]'>Sign In</button>
+                            <button type='submit' className='py-4 hover:-translate-y-1 transition duration-400 rounded-lg px-6 text-2xl font-meduim bg-[#FF9B24] text-[#FFF]'>Sign In</button>
                             <div className='flex items-center gap-5 justify-between'>
                                 <div className='flex gap-5 items-center'>
                                     <input className='w-[20px] h-[20px]' type="checkbox" />

@@ -104,7 +104,7 @@ function Register() {
 
                         {error && <h6 className='text-center mt-2 text-[red]'>wrong credentials</h6>}
 
-                        <button className='py-4 rounded-lg px-6 text-2xl font-meduim bg-[#FF9B24] text-[#FFFFFF]'>Sign Up</button>
+                        <button className='py-4 hover:-translate-y-1 transition duration-400 rounded-lg px-6 text-2xl font-meduim bg-[#FF9B24] text-[#FFFFFF]'>Sign Up</button>
                     </form>
                     
                     <h5 className='cursor-pointer mt-5 text-center text-lg font-normal  text-[#333]'>Already have an account? <Link to="/login" className='text-[#097DEB]'>Sign in</Link></h5>
